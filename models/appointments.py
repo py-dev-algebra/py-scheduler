@@ -37,5 +37,8 @@ class Appointment:
         self.end = self.start + self.duration
 
 
-    # def __str__(self):
-    #     pass
+    def __str__(self) -> str:
+        appointment_str = f'Naslov: {self.title}\n'
+        appointment_str += f'Pocetak: {self.start.strftime("%A, %d.%m.%Y. %H:%M")}\n'
+        appointment_str += f'Zavrsetak: {self.end.strftime("%A, %d.%m.%Y. %H:%M")}\n'
+        return appointment_str
