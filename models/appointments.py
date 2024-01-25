@@ -3,6 +3,7 @@ from datetime import timedelta
 from models.customers import Customer
 
 
+
 class Appointment:
     def __init__(self,
                  title: str,
