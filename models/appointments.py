@@ -2,16 +2,6 @@ from datetime import datetime
 from datetime import timedelta
 from models.customers import Customer
 
-'''
-- vrijeme
-- mjesto
-- osobe
-- datum
-- naslov / tema / topic
-- ponavljanja
-'''
-
-
 
 class Appointment:
     def __init__(self,
